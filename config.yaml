@@ -1,0 +1,66 @@
+active_client: lu4
+active_preset: default
+bot:
+  minimize_console: true
+clients:
+  bohpts:
+    name: BoHpts
+    launcher_title: BoHpts
+    exclude_titles:
+    - BoHpts
+    window_title_prefix: Lineage II
+    exe_path: ''
+    target_death_mode: hp_bar
+  scryde:
+    name: Scryde
+    launcher_title: SCRYDE LAUNCHER
+    exclude_titles:
+    - SCRYDE LAUNCHER
+    - Scryde
+    window_title_prefix: Olimpus
+    window_match_mode: process
+    process_names:
+    - ScrydeGame.bin
+    exe_path: ''
+    target_death_mode: popup_and_hp
+  lu4:
+    name: Lu4
+    launcher_title: E-Global
+    exclude_titles:
+    - E-Global
+    - EGlobal
+    - EGlobalLauncher
+    - MasterWork
+    - MW Season
+    - Lu4 Launcher
+    window_title_prefix: Lu4
+    window_match_mode: process
+    process_names:
+    - Lu4.exe
+    - Lu4Game.exe
+    - Lu4-Win64-Shipping.exe
+    exe_path: ''
+    target_death_mode: hp_bar
+    keyboard_backend: sendinput
+    stats_panel_layout: bars_only
+    stats_cp_min_max: 30
+    stats_min_max: 30
+game:
+  monitor_resolution:
+  - 2560
+  - 1440
+  game_resolution:
+  - 1920
+  - 1080
+ocr:
+  tesseract_path: C:\Program Files\Tesseract-OCR\tesseract.exe
+  lang: eng
+stats:
+  poll_interval: 3
+  poll_when_focused: false
+  fast_mode: true
+  min_color_match: 0.04
+  panel_template_min_conf: 0.55
+  capture_retries: 3
+  read_retries: 2
+  scan_downscale: 0.5

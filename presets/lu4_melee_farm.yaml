@@ -1,0 +1,126 @@
+name: lu4_melee_farm
+description: Just Farm / Next Target для Lu4 (E-Global UE)
+farm:
+  zone: default
+  attack:
+    type: key
+    key: F1
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 5
+  heal:
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+  heal_threshold: 50
+  rebuff:
+    enabled: false
+    macro_enabled: false
+    macro_key: F1
+    before_start: true
+    open_key: B
+    step_delay: 0.2
+    start_delay: 0.15
+    menu_open_delay: 0.12
+    menu_poll_max: 0.45
+    buffer_screen_delay: 0.12
+    screen_poll_max: 0.35
+    close_poll_max: 0.25
+    pre_key_delay: 0.1
+    template_confidence: 0.58
+    find_retry_delay: 0.08
+    buffer:
+      x: 0
+      y: 0
+    rebuff:
+      x: 0
+      y: 0
+    close:
+      x: 0
+      y: 0
+  targeting:
+    enabled: true
+    mobs: []
+    click_offset_y: 35
+    double_click_interval: 0.08
+    ocr_min_confidence: 35
+  skills:
+  - name: Основная атака
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+    cooldown: 0.0
+    enabled: true
+  - name: Скилл 2
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+    cooldown: 3.0
+    enabled: false
+input:
+  device: logitech_ghub
+  use_mouse: true
+hotkeys:
+  start_stop: up
+  pause: F10
+  exit: F12
+vision:
+  confidence: 0.8
+  screenshot_region: null
+  auto_scale: true
+timing:
+  action_delay: 0.3
+  scan_interval: 0.5
+route:
+  clicks: []
+  teleport:
+    city: ''
+    location: ''
+just_farm:
+  enabled: false
+  mob_names:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  mob_name: ''
+  click_offset_y: 48
+  targeting:
+    mode: next_target
+    key: '1'
+  attack:
+    type: key
+    key: F1
+    hp_below_pct: 0
+  attacks_extra:
+  - type: key
+    key: F2
+    hp_below_pct: 0
+  - type: key
+    key: F1
+    hp_below_pct: 0
+  - type: key
+    key: F1
+    hp_below_pct: 0
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 5
+  self_buff:
+    key: F10
+    interval_sec: 0
+  self_buffs_extra:
+  - key: F1
+    interval_sec: 0
+  - key: F1
+    interval_sec: 0
+  - key: F1
+    interval_sec: 0
+  - key: F1
+    interval_sec: 0
+  no_kill_timeout_sec: 7

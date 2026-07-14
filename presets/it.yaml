@@ -1,0 +1,53 @@
+name: IT
+description: 'Маршрут и фарм: IT'
+route:
+  clicks: []
+farm:
+  zone: IT
+  attack:
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 5
+  heal:
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+  heal_threshold: 50
+  targeting:
+    enabled: false
+    mobs: []
+  skills:
+  - name: Основная атака
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+    cooldown: 0.0
+    enabled: true
+  - name: Скилл 2
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+    cooldown: 3.0
+    enabled: false
+input:
+  device: logitech_ghub
+  use_mouse: true
+hotkeys:
+  start_stop: up
+  pause: F10
+  exit: F12
+vision:
+  confidence: 0.8
+  screenshot_region: null
+  auto_scale: true
+timing:
+  action_delay: 0.3
+  scan_interval: 0.5

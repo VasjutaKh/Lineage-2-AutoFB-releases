@@ -1,0 +1,155 @@
+name: plains of dion
+description: ''
+route:
+  clicks: []
+  teleport:
+    city: Dion
+    location: Plains of Dion
+farm:
+  zone: default
+  attack:
+    type: key
+    key: F1
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 5
+  heal:
+    type: mouse
+    button: left
+    x: 1154
+    y: 679
+  heal_threshold: 50
+  rebuff:
+    enabled: false
+    macro_enabled: true
+    macro_key: F12
+    before_start: true
+    open_key: B
+    step_delay: 0.2
+    start_delay: 0.15
+    menu_open_delay: 0.12
+    menu_poll_max: 0.45
+    buffer_screen_delay: 0.12
+    screen_poll_max: 0.35
+    close_poll_max: 0.25
+    pre_key_delay: 0.1
+    template_confidence: 0.58
+    find_retry_delay: 0.08
+    buffer:
+      x: 0
+      y: 0
+    rebuff:
+      x: 0
+      y: 0
+    close:
+      x: 0
+      y: 0
+  skills:
+  - name: Основная атака
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+    cooldown: 0.0
+    enabled: true
+  - name: Скилл 2
+    type: mouse
+    button: left
+    x: 0
+    y: 0
+    cooldown: 3.0
+    enabled: false
+  targeting:
+    enabled: true
+    mobs: []
+    click_offset_y: 35
+    track_before_click: true
+    track_radius: 140
+    track_interval: 0.06
+    hover_before_click: true
+    hover_wiggle_px: 10
+    hover_dwell: 0.12
+    move_before_click_delay: 0.35
+    combat_min_duration: 1.2
+    target_lost_reads: 2
+    combat_max_duration: 45.0
+    ignore_corpses: true
+    corpse_ignore_sec: 12.0
+    corpse_ignore_radius: 160
+    clear_target_on_kill: true
+    clear_target_delay: 0.12
+    retarget_attempts: 5
+    verify_target_hp: true
+    target_hp_dead_p90: 82
+    target_hp_drop_ratio: 0.55
+    target_hp_peak_min: 95
+    target_verify_delay: 0.25
+    target_hp_min_p90: 90
+    target_hp_min_max: 85
+    attack_after_target_delay: 0.15
+    double_click_interval: 0.15
+    ocr_min_confidence: 40
+    confirm_reads: 1
+    use_template: false
+just_farm:
+  enabled: true
+  mob_names:
+  - Ent Protector
+  - Ent Sniper
+  - Corruptor
+  - Predator
+  mob_name: Ent Protector
+  click_offset_y: 48
+  targeting:
+    mode: next_target
+    key: '1'
+  attack:
+    type: key
+    key: F1
+    hp_below_pct: 0.0
+  attacks_extra:
+  - type: key
+    key: F2
+    hp_below_pct: 70.0
+  - type: mouse
+    button: left
+    x: 0
+    y: 0
+    hp_below_pct: 0.0
+  - type: mouse
+    button: left
+    x: 0
+    y: 0
+    hp_below_pct: 0.0
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 1
+  self_buff:
+    key: F9
+    interval_sec: 300.0
+  self_buffs_extra:
+  - key: F1
+    interval_sec: 0.0
+  - key: F1
+    interval_sec: 0.0
+  - key: F1
+    interval_sec: 0.0
+  - key: F1
+    interval_sec: 0.0
+  no_kill_timeout_sec: 45.0
+input:
+  device: logitech_ghub
+  use_mouse: true
+hotkeys:
+  start_stop: up
+  pause: F10
+  exit: F12
+vision:
+  confidence: 0.8
+  screenshot_region: null
+  auto_scale: true
+timing:
+  action_delay: 0.3
+  scan_interval: 0.5

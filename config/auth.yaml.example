@@ -1,0 +1,7 @@
+# Шаблон auth.yaml — скопируй в auth.yaml и задай свои пароли.
+# Хеш: python -c "import hashlib; s='l2bo-v1'; p='YOUR_PASSWORD'; print(hashlib.sha256((s+p).encode()).hexdigest())"
+
+auth_salt: l2bo-v1
+
+users:
+  your_login: paste_sha256_hash_here

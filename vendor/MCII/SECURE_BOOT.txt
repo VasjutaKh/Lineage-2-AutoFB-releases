@@ -1,0 +1,34 @@
+MCII error 5 — Secure Boot OFF is NOT enough
+=============================================
+
+Your PC has Test Mode ON (good) but VBS is still RUNNING.
+VBS blocks UNSIGNED kernel drivers. MCII driver is unsigned.
+
+STEP 1 — Disable VBS (admin + reboot)
+--------------------------------------
+Run:  launch\disable_vbs_mcii.bat
+
+STEP 2 — Memory Integrity (manual check)
+-----------------------------------------
+Windows Security -> Device security -> Core isolation details
+Memory integrity -> OFF
+
+If you use Windows Hello PIN — disable PIN first, then turn Memory integrity OFF.
+
+STEP 3 — Reboot PC
+
+STEP 4 — Install MCII again
+----------------------------
+Run:  launch\install_mcii.bat
+
+STEP 5 — Test
+-------------
+  cd f:\Shit\l2bo
+  uv run python scripts/test_ib_input.py
+
+Expected:  2. MCII ... OK
+
+Verify VBS is off: Win+R -> msinfo32
+  "Virtualization-based security" should say "Not enabled"
+
+If still FAIL — send vendor\MCII\install.log

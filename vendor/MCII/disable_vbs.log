@@ -1,0 +1,50 @@
+﻿[01:13:16] === Disable VBS for MCII ===
+[01:13:16] Log: F:\Shit\l2bo\vendor\MCII\disable_vbs.log
+[01:13:16] Disabling VBS / Memory Integrity registry keys...
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\EnableVirtualizationBasedSecurity = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\RequirePlatformSecurityFeatures = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Locked = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\RequireMicrosoftSignedBootChain = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity\Enabled = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\CredentialGuard\Enabled = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\SystemGuard\Enabled = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\WindowsHello\Enabled = 0
+[01:13:16]   HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\LsaCfgFlags = 0
+[01:13:16] bcdedit hypervisorlaunchtype off...
+[01:13:16]   Операция успешно завершена.
+[01:13:16] bcdedit vsmlaunchtype off...
+[01:13:16]   Операция успешно завершена.
+[01:13:16] 
+[01:13:16] DONE. REBOOT REQUIRED!
+[01:13:16] After reboot:
+[01:13:16]   1. launch\install_mcii.bat
+[01:13:16]   2. uv run python scripts/test_ib_input.py
+[01:13:16] 
+[01:13:16] Also check manually:
+[01:13:16]   Windows Security -> Device security -> Core isolation
+[01:13:16]   Memory integrity = OFF
+[01:15:16] === Disable VBS for MCII ===
+[01:15:16] Log: F:\Shit\l2bo\vendor\MCII\disable_vbs.log
+[01:15:16] Disabling VBS / Memory Integrity registry keys...
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\EnableVirtualizationBasedSecurity = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\RequirePlatformSecurityFeatures = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Locked = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\RequireMicrosoftSignedBootChain = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity\Enabled = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\CredentialGuard\Enabled = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\SystemGuard\Enabled = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\WindowsHello\Enabled = 0
+[01:15:16]   HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\LsaCfgFlags = 0
+[01:15:16] bcdedit hypervisorlaunchtype off...
+[01:15:16]   Операция успешно завершена.
+[01:15:16] bcdedit vsmlaunchtype off...
+[01:15:16]   Операция успешно завершена.
+[01:15:16] 
+[01:15:16] DONE. REBOOT REQUIRED!
+[01:15:16] After reboot:
+[01:15:16]   1. launch\install_mcii.bat
+[01:15:16]   2. uv run python scripts/test_ib_input.py
+[01:15:16] 
+[01:15:16] Also check manually:
+[01:15:16]   Windows Security -> Device security -> Core isolation
+[01:15:16]   Memory integrity = OFF

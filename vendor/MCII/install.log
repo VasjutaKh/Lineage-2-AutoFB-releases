@@ -1,0 +1,288 @@
+﻿[00:33:36] === MCII install ===
+[00:33:36] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[00:33:36] Admin: OK
+[00:33:36] Driver file: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[00:33:36] Test signing is OFF. Enabling...
+[00:33:36] ERROR: bcdedit failed.
+[00:33:36] Disable Secure Boot or boot with F7 -> disable driver signature enforcement.
+[00:33:36] 
+[00:41:52] === MCII install ===
+[00:41:52] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[00:41:52] Admin: OK
+[00:41:52] Driver file: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[00:41:52] Test signing is OFF. Enabling...
+[00:41:52] bcdedit: Операция успешно завершена.
+[00:41:52] 
+[00:41:52] Test signing ON. REBOOT required!
+[00:41:52] After reboot run install_mcii.bat again.
+[00:41:52] 
+[00:45:44] === MCII install ===
+[00:45:44] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[00:45:44] Admin: OK
+[00:45:44] Driver file: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[00:45:44] Test signing: ON
+[00:45:44] Creating service MouClassInputInjection ...
+[00:45:45] [SC] CreateService: успех
+[00:45:45] Starting driver...
+[00:45:45] [SC] StartService: ошибка: 5:
+
+Отказано в доступе.
+[00:45:45] ERROR: sc start (code 5)
+[00:45:45] 
+[00:45:45] Driver failed to start.
+[00:45:45] 
+[00:45:45] === Secure Boot blocks unsigned drivers ===
+[00:45:45] 
+[00:45:45] Option A (recommended, one time):
+[00:45:45]   1. Reboot PC
+[00:45:45]   2. Open BIOS (Del / F2 / F12 during boot)
+[00:45:45]   3. Find Secure Boot -> Disabled
+[00:45:45]   4. Save and exit
+[00:45:45]   5. Run install_mcii.bat again
+[00:45:45] 
+[00:45:45] Option B (temporary, every reboot):
+[00:45:45]   1. Win+R -> shutdown /r /o /t 0
+[00:45:45]   2. Troubleshoot -> Advanced -> Startup Settings -> Restart
+[00:45:45]   3. Press F7 (Disable driver signature enforcement)
+[00:45:45]   4. Run install_mcii.bat again
+[00:45:45] 
+[00:45:45] Full guide: vendor\MCII\SECURE_BOOT.txt
+[00:45:45] 
+[00:59:02] === MCII install ===
+[00:59:02] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[00:59:02] Admin: OK
+[00:59:02] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[00:59:02] Test signing is OFF. Enabling...
+[00:59:02] bcdedit: Произошла ошибка при задании данных элемента.
+Значение защищено политикой безопасной загрузки и не может быть изменено или удалено.
+[00:59:02] bcdedit failed.
+[00:59:02] 
+[00:59:02] === Driver start failed (error 5) ===
+[00:59:02] Detected:
+[00:59:02]   - testsigning OFF
+[00:59:02]   - RequireMicrosoftSignedBootChain ON (Secure Boot likely ON)
+[00:59:02] 
+[00:59:02] Do ALL of these:
+[00:59:02]   1. BIOS: Secure Boot -> Disabled
+[00:59:02]   2. Windows: Security -> Device security -> Core isolation
+[00:59:02]      Memory integrity -> OFF, then reboot
+[00:59:02]   3. Run install_mcii.bat again
+[00:59:02] 
+[00:59:02] Guide: vendor\MCII\SECURE_BOOT.txt
+[00:59:02] 
+[01:00:03] === MCII install ===
+[01:00:03] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:00:03] Admin: OK
+[01:00:03] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:00:03] Test signing is OFF. Enabling...
+[01:00:03] bcdedit: Произошла ошибка при задании данных элемента.
+Значение защищено политикой безопасной загрузки и не может быть изменено или удалено.
+[01:00:03] bcdedit failed.
+[01:00:03] 
+[01:00:03] === Driver start failed (error 5) ===
+[01:00:03] Detected:
+[01:00:03]   - testsigning OFF
+[01:00:03]   - RequireMicrosoftSignedBootChain ON (Secure Boot likely ON)
+[01:00:03] 
+[01:00:03] Do ALL of these:
+[01:00:03]   1. BIOS: Secure Boot -> Disabled
+[01:00:03]   2. Windows: Security -> Device security -> Core isolation
+[01:00:03]      Memory integrity -> OFF, then reboot
+[01:00:03]   3. Run install_mcii.bat again
+[01:00:03] 
+[01:00:03] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:00:03] 
+[01:00:11] === MCII install ===
+[01:00:11] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:00:11] Admin: OK
+[01:00:11] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:00:11] Test signing is OFF. Enabling...
+[01:00:11] bcdedit: Произошла ошибка при задании данных элемента.
+Значение защищено политикой безопасной загрузки и не может быть изменено или удалено.
+[01:00:11] bcdedit failed.
+[01:00:11] 
+[01:00:11] === Driver start failed (error 5) ===
+[01:00:11] Detected:
+[01:00:11]   - testsigning OFF
+[01:00:11]   - RequireMicrosoftSignedBootChain ON (Secure Boot likely ON)
+[01:00:11] 
+[01:00:11] Do ALL of these:
+[01:00:11]   1. BIOS: Secure Boot -> Disabled
+[01:00:11]   2. Windows: Security -> Device security -> Core isolation
+[01:00:11]      Memory integrity -> OFF, then reboot
+[01:00:11]   3. Run install_mcii.bat again
+[01:00:11] 
+[01:00:11] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:00:11] 
+[01:02:03] === MCII install ===
+[01:02:03] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:02:03] Admin: OK
+[01:02:03] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:02:03] Test signing is OFF. Enabling...
+[01:02:03] bcdedit: Произошла ошибка при задании данных элемента.
+Значение защищено политикой безопасной загрузки и не может быть изменено или удалено.
+[01:02:03] bcdedit failed.
+[01:02:03] 
+[01:02:03] === Driver start failed (error 5) ===
+[01:02:03] Detected:
+[01:02:03]   - testsigning OFF
+[01:02:03]   - RequireMicrosoftSignedBootChain ON (Secure Boot likely ON)
+[01:02:03] 
+[01:02:03] Do ALL of these:
+[01:02:03]   1. BIOS: Secure Boot -> Disabled
+[01:02:03]   2. Windows: Security -> Device security -> Core isolation
+[01:02:03]      Memory integrity -> OFF, then reboot
+[01:02:03]   3. Run install_mcii.bat again
+[01:02:03] 
+[01:02:03] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:02:03] 
+[01:07:42] === MCII install ===
+[01:07:42] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:07:42] Admin: OK
+[01:07:42] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:07:42] Test signing is OFF. Enabling...
+[01:07:42] bcdedit: Операция успешно завершена.
+[01:07:42] Test signing ON. REBOOT required!
+[01:07:42] After reboot run install_mcii.bat again.
+[01:07:42] 
+[01:11:29] === MCII install ===
+[01:11:29] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:11:29] Admin: OK
+[01:11:29] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:11:29] Test signing: ON
+[01:11:29] Warnings before install:
+[01:11:29]   - RequireMicrosoftSignedBootChain ON (Secure Boot likely ON)
+[01:11:29] Copy driver to System32...
+[01:11:29] Copied to C:\WINDOWS\System32\drivers\MouClassInputInjection.sys
+[01:11:29] Removing old service...
+[01:11:31] [SC] DeleteService: успех
+[01:11:32] Creating service MouClassInputInjection ...
+[01:11:32] [SC] CreateService: успех
+[01:11:32] Starting driver...
+[01:11:32] [SC] StartService: ошибка: 5:
+
+Отказано в доступе.
+[01:11:32] ERROR: sc start (code 5)
+[01:11:32] 
+[01:11:32] Driver failed to start.
+[01:11:32] 
+[01:11:32] === Driver start failed (error 5) ===
+[01:11:32] Detected:
+[01:11:32]   - RequireMicrosoftSignedBootChain ON (Secure Boot likely ON)
+[01:11:32] 
+[01:11:32] Do ALL of these:
+[01:11:32]   1. BIOS: Secure Boot -> Disabled
+[01:11:32]   2. Windows: Security -> Device security -> Core isolation
+[01:11:32]      Memory integrity -> OFF, then reboot
+[01:11:32]   3. Run install_mcii.bat again
+[01:11:32] 
+[01:11:32] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:11:32] 
+[01:14:43] === MCII install ===
+[01:14:43] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:14:43] Admin: OK
+[01:14:43] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:14:44] Test signing: ON
+[01:14:44] Copy driver to System32...
+[01:14:44] Copied to C:\WINDOWS\System32\drivers\MouClassInputInjection.sys
+[01:14:44] Removing old service...
+[01:14:46] [SC] DeleteService: успех
+[01:14:47] Creating service MouClassInputInjection ...
+[01:14:47] [SC] CreateService: успех
+[01:14:47] Starting driver...
+[01:14:47] [SC] StartService: ошибка: 5:
+
+Отказано в доступе.
+[01:14:47] ERROR: sc start (code 5)
+[01:14:47] 
+[01:14:47] Driver failed to start.
+[01:14:47] 
+[01:14:47] === Driver start failed (error 5) ===
+[01:14:47] 
+[01:14:47] Secure Boot OFF is not enough. MCII driver is UNSIGNED.
+[01:14:47] Windows VBS / Memory Integrity still blocks it.
+[01:14:47] 
+[01:14:47] Fix (run as admin, then REBOOT):
+[01:14:47]   launch\disable_vbs_mcii.bat
+[01:14:47] 
+[01:14:47] Manual check:
+[01:14:47]   Windows Security -> Device security -> Core isolation
+[01:14:47]   Memory integrity = OFF
+[01:14:47] 
+[01:14:47] After reboot:
+[01:14:47]   launch\install_mcii.bat
+[01:14:47] 
+[01:14:47] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:14:47] 
+[01:14:54] === MCII install ===
+[01:14:54] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:14:54] Admin: OK
+[01:14:54] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:14:54] Test signing: ON
+[01:14:54] Copy driver to System32...
+[01:14:54] Copied to C:\WINDOWS\System32\drivers\MouClassInputInjection.sys
+[01:14:54] Removing old service...
+[01:14:56] [SC] DeleteService: успех
+[01:14:57] Creating service MouClassInputInjection ...
+[01:14:57] [SC] CreateService: успех
+[01:14:57] Starting driver...
+[01:14:57] [SC] StartService: ошибка: 1450:
+
+Недостаточно системных ресурсов для завершения операции.
+[01:14:57] ERROR: sc start (code 1450)
+[01:14:57] 
+[01:14:57] Driver failed to start.
+[01:14:57] 
+[01:14:57] === Driver start failed (error 5) ===
+[01:14:57] 
+[01:14:57] Secure Boot OFF is not enough. MCII driver is UNSIGNED.
+[01:14:57] Windows VBS / Memory Integrity still blocks it.
+[01:14:57] 
+[01:14:57] Fix (run as admin, then REBOOT):
+[01:14:57]   launch\disable_vbs_mcii.bat
+[01:14:57] 
+[01:14:57] Manual check:
+[01:14:57]   Windows Security -> Device security -> Core isolation
+[01:14:57]   Memory integrity = OFF
+[01:14:57] 
+[01:14:57] After reboot:
+[01:14:57]   launch\install_mcii.bat
+[01:14:57] 
+[01:14:57] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:14:57] 
+[01:15:25] === MCII install ===
+[01:15:25] Log: F:\Shit\l2bo\vendor\MCII\install.log
+[01:15:25] Admin: OK
+[01:15:25] Source: F:\Shit\l2bo\vendor\MCII\MouClassInputInjection.sys
+[01:15:25] Test signing: ON
+[01:15:25] Copy driver to System32...
+[01:15:25] Copied to C:\WINDOWS\System32\drivers\MouClassInputInjection.sys
+[01:15:25] Removing old service...
+[01:15:27] [SC] DeleteService: успех
+[01:15:28] Creating service MouClassInputInjection ...
+[01:15:28] [SC] CreateService: успех
+[01:15:28] Starting driver...
+[01:15:28] [SC] StartService: ошибка: 1450:
+
+Недостаточно системных ресурсов для завершения операции.
+[01:15:28] ERROR: sc start (code 1450)
+[01:15:28] 
+[01:15:28] Driver failed to start.
+[01:15:28] 
+[01:15:28] === Driver start failed (error 5) ===
+[01:15:28] 
+[01:15:28] Secure Boot OFF is not enough. MCII driver is UNSIGNED.
+[01:15:28] Windows VBS / Memory Integrity still blocks it.
+[01:15:28] 
+[01:15:28] Fix (run as admin, then REBOOT):
+[01:15:28]   launch\disable_vbs_mcii.bat
+[01:15:28] 
+[01:15:28] Manual check:
+[01:15:28]   Windows Security -> Device security -> Core isolation
+[01:15:28]   Memory integrity = OFF
+[01:15:28] 
+[01:15:28] After reboot:
+[01:15:28]   launch\install_mcii.bat
+[01:15:28] 
+[01:15:28] Guide: vendor\MCII\SECURE_BOOT.txt
+[01:15:28] 
