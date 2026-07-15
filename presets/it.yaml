@@ -1,4 +1,4 @@
-name: IT
+﻿name: IT
 description: 'Маршрут и фарм: IT'
 route:
   clicks: []
@@ -49,5 +49,5 @@ vision:
   screenshot_region: null
   auto_scale: true
 timing:
-  action_delay: 0.3
-  scan_interval: 0.5
+  action_delay: 0.2
+  scan_interval: 0.2

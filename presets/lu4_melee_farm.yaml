@@ -1,4 +1,4 @@
-name: lu4_melee_farm
+﻿name: lu4_melee_farm
 description: Just Farm / Next Target для Lu4 (E-Global UE)
 farm:
   zone: default
@@ -73,8 +73,8 @@ vision:
   screenshot_region: null
   auto_scale: true
 timing:
-  action_delay: 0.3
-  scan_interval: 0.5
+  action_delay: 0.2
+  scan_interval: 0.2
 route:
   clicks: []
   teleport:

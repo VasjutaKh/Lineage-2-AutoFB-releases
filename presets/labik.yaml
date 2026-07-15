@@ -1,4 +1,4 @@
-name: Labik
+﻿name: Labik
 description: 'Маршрут и фарм: Labik'
 farm:
   zone: Labik
@@ -44,8 +44,8 @@ vision:
   screenshot_region: null
   auto_scale: true
 timing:
-  action_delay: 0.3
-  scan_interval: 0.5
+  action_delay: 0.2
+  scan_interval: 0.2
 route:
   clicks: []
   teleport:
