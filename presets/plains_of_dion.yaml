@@ -138,6 +138,10 @@ just_farm:
     interval_sec: 0.0
   - key: F1
     interval_sec: 0.0
+  heal:
+    key: F6
+    hp_below_pct: 0
+  heals_extra: []
   no_kill_timeout_sec: 45.0
 input:
   device: logitech_ghub

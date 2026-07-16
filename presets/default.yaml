@@ -97,9 +97,9 @@ farm:
 just_farm:
   enabled: true
   mob_names:
-  - Elpy
-  - Young Keltir
-  mob_name: Elpy
+  - Utuku Orc
+  - Goblin Snooper
+  mob_name: Utuku Orc
   click_offset_y: 48
   targeting:
     mode: next_target
@@ -108,16 +108,23 @@ just_farm:
     type: key
     key: F1
     hp_below_pct: 0.0
-  attacks_extra: []
+  attacks_extra:
+  - type: key
+    key: F2
+    hp_below_pct: 0.0
   pickup:
-    enabled: true
+    enabled: false
     key: F3
     interval_sec: 0
   self_buff:
-    key: F10
-    interval_sec: 0.0
+    key: F4
+    interval_sec: 10.0
   self_buffs_extra: []
-  no_kill_timeout_sec: 45.0
+  heal:
+    key: F5
+    hp_below_pct: 50.0
+  heals_extra: []
+  no_kill_timeout_sec: 25.0
 input:
   device: logitech_ghub
   use_mouse: true

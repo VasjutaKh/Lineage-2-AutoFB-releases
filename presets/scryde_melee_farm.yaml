@@ -114,6 +114,10 @@ just_farm:
     key: F3
     interval_sec: 5
   self_buff:
-    key: F10
+    key: F9
     interval_sec: 0
+  heal:
+    key: F6
+    hp_below_pct: 0
+  heals_extra: []
   no_kill_timeout_sec: 5
