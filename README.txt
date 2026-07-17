@@ -28,4 +28,3 @@ L2 Bot — краткая инструкция
 - vendor/      — IbInputSimulator (DLL ставится отдельно, см. vendor/IbInputSimulator/)
 - logs/        — bot.log (создаётся при работе)
 
-Lu4 / G HUB: для клавиш через Logitech нужен IbInputSimulator.dll в vendor/IbInputSimulator/
