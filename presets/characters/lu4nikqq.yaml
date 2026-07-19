@@ -1,0 +1,38 @@
+name: Lu4nikqq
+just_farm:
+  enabled: false
+  mob_names:
+  - Wolf
+  - Elder Wolf
+  - Orc Grunt
+  - Orc
+  mob_name: Wolf
+  click_offset_y: 35
+  targeting:
+    mode: next_target
+    key: '1'
+  attack:
+    type: key
+    key: F1
+    hp_below_pct: 0.0
+  attacks_extra: []
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 5
+  self_buff:
+    key: F9
+    interval_sec: 0.0
+  self_buffs_extra: []
+  heal:
+    key: F5
+    hp_below_pct: 60.0
+  heals_extra: []
+  no_kill_timeout_sec: 25.0
+base_preset: default
+just_assists:
+  enabled: true
+  interval_sec: 0.3
+  keys:
+  - F2
+  - '5'

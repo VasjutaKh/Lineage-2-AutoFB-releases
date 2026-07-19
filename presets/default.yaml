@@ -95,12 +95,14 @@ farm:
     confirm_reads: 1
     use_template: false
 just_farm:
-  enabled: true
+  enabled: false
   mob_names:
-  - Utuku Orc
-  - Goblin Snooper
-  mob_name: Utuku Orc
-  click_offset_y: 48
+  - Wolf
+  - Elder Wolf
+  - Orc Grunt
+  - Orc
+  mob_name: Wolf
+  click_offset_y: 35
   targeting:
     mode: next_target
     key: '1'
@@ -108,23 +110,25 @@ just_farm:
     type: key
     key: F1
     hp_below_pct: 0.0
-  attacks_extra:
-  - type: key
-    key: F2
-    hp_below_pct: 0.0
+  attacks_extra: []
   pickup:
     enabled: false
     key: F3
-    interval_sec: 0
+    interval_sec: 5
   self_buff:
-    key: F4
-    interval_sec: 10.0
+    key: F9
+    interval_sec: 0.0
   self_buffs_extra: []
   heal:
     key: F5
-    hp_below_pct: 50.0
+    hp_below_pct: 60.0
   heals_extra: []
   no_kill_timeout_sec: 25.0
+just_assists:
+  enabled: true
+  interval_sec: 500.0
+  keys:
+  - F1
 input:
   device: logitech_ghub
   use_mouse: true

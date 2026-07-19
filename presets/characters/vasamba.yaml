@@ -1,0 +1,48 @@
+name: VASAMBA
+just_farm:
+  enabled: false
+  mob_names:
+  - Wolf
+  - Elder Wolf
+  - Orc Grunt
+  - Orc
+  mob_name: Wolf
+  click_offset_y: 48
+  targeting:
+    mode: next_target
+    key: '1'
+  attack:
+    type: key
+    key: F1
+    hp_below_pct: 0.0
+  attacks_extra:
+  - type: key
+    key: F2
+    hp_below_pct: 0.0
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 0
+  spoil:
+    enabled: false
+    spoil_key: F5
+    sweep_key: F6
+  self_buff:
+    key: F4
+    interval_sec: 0.0
+  self_buffs_extra: []
+  heal:
+    key: F5
+    hp_below_pct: 50.0
+  heals_extra: []
+  no_kill_timeout_sec: 25.0
+base_preset: default
+just_assists:
+  enabled: true
+  interval_sec: 0.3
+  keys:
+  - F2
+  heal:
+    key: F6
+    hp_below_pct: 60.0
+  heals_extra: []

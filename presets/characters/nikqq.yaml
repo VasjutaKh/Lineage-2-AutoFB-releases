@@ -1,0 +1,39 @@
+name: nikqq
+just_farm:
+  enabled: true
+  mob_names:
+  - Young Keltir
+  - Elder Keltir
+  - Elpy
+  mob_name: Young Keltir
+  click_offset_y: 48
+  targeting:
+    mode: next_target
+    key: '1'
+  attack:
+    type: key
+    key: F1
+    hp_below_pct: 0.0
+  attacks_extra:
+  - type: key
+    key: F2
+    hp_below_pct: 0.0
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 0
+  self_buff:
+    key: F4
+    interval_sec: 0.0
+  self_buffs_extra: []
+  heal:
+    key: F5
+    hp_below_pct: 50.0
+  heals_extra: []
+  no_kill_timeout_sec: 25.0
+base_preset: default
+just_assists:
+  enabled: false
+  interval_sec: 1.0
+  keys:
+  - F1
