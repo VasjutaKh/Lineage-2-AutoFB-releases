@@ -2,12 +2,12 @@ name: tipityx
 just_farm:
   enabled: true
   mob_names:
-  - Werewolf Hunter
-  - Werewolf
+  - Baraq Orc Fighter
+  - Baraq Orc
   - Goblin Scout
   - Orc
   - Werewolf Chieftain
-  mob_name: Werewolf Hunter
+  mob_name: Baraq Orc Fighter
   click_offset_y: 35
   targeting:
     mode: next_target
@@ -37,10 +37,10 @@ just_farm:
 base_preset: default
 just_assists:
   enabled: false
-  interval_sec: 500.0
+  interval_sec: 0.1
   keys:
-  - F1
+  - '7'
   heal:
     key: F6
-    hp_below_pct: 0.0
+    hp_below_pct: 60.0
   heals_extra: []

@@ -7,7 +7,7 @@ L2 Bot — краткая инструкция
 - Windows 10/11
 - Tesseract OCR: https://github.com/UB-Mannheim/tesseract/wiki
 - Игра Lineage 2, окно 1920x1080 (или auto_scale в пресете)
-- Logitech G HUB  + Logitech Gaming Software
+- Logitech G HUB (Scryde/BoHpts) или SendInput (Lu4)
 
 Первый запуск:
 1. Открой config.yaml — укажи путь к tesseract.exe
@@ -28,3 +28,4 @@ L2 Bot — краткая инструкция
 - vendor/      — IbInputSimulator (DLL ставится отдельно, см. vendor/IbInputSimulator/)
 - logs/        — bot.log (создаётся при работе)
 
+Lu4 / G HUB: для клавиш через Logitech нужен IbInputSimulator.dll в vendor/IbInputSimulator/
