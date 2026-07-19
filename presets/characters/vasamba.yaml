@@ -27,6 +27,7 @@ just_farm:
     enabled: false
     spoil_key: F5
     sweep_key: F6
+  relocating: false
   self_buff:
     key: F4
     interval_sec: 0.0
@@ -38,10 +39,11 @@ just_farm:
   no_kill_timeout_sec: 25.0
 base_preset: default
 just_assists:
-  enabled: false
-  interval_sec: 0.1
+  enabled: true
+  interval_sec: 0.3
   keys:
   - F2
+  - F3
   heal:
     key: F6
     hp_below_pct: 80.0

@@ -20,7 +20,7 @@ just_farm:
   pickup:
     enabled: false
     key: F3
-    interval_sec: 5
+    interval_sec: 0
   spoil:
     enabled: true
     spoil_key: F6
@@ -38,7 +38,7 @@ just_farm:
 base_preset: default
 just_assists:
   enabled: false
-  interval_sec: 0.1
+  interval_sec: 0.3
   keys:
   - '7'
   heal:

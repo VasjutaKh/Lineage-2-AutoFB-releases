@@ -114,7 +114,7 @@ just_farm:
   pickup:
     enabled: false
     key: F3
-    interval_sec: 5
+    interval_sec: 0
   self_buff:
     key: F9
     interval_sec: 0.0
