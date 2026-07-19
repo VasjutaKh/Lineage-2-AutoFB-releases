@@ -38,7 +38,7 @@ just_farm:
   no_kill_timeout_sec: 25.0
 base_preset: default
 just_assists:
-  enabled: true
+  enabled: false
   interval_sec: 0.1
   keys:
   - F2

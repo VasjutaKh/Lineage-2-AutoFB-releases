@@ -124,6 +124,7 @@ just_farm:
     hp_below_pct: 60.0
   heals_extra: []
   no_kill_timeout_sec: 25.0
+  relocating: false
 just_assists:
   enabled: true
   interval_sec: 500.0

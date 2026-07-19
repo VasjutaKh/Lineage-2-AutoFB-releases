@@ -2,12 +2,12 @@ name: tipityx
 just_farm:
   enabled: true
   mob_names:
-  - Baraq Orc Fighter
-  - Baraq Orc
+  - Crimson Spider
+  - Hook Spider
   - Goblin Scout
   - Orc
   - Werewolf Chieftain
-  mob_name: Baraq Orc Fighter
+  mob_name: Crimson Spider
   click_offset_y: 35
   targeting:
     mode: next_target
@@ -25,6 +25,7 @@ just_farm:
     enabled: true
     spoil_key: F6
     sweep_key: F7
+  relocating: false
   self_buff:
     key: F9
     interval_sec: 0.0
@@ -33,7 +34,7 @@ just_farm:
     key: F5
     hp_below_pct: 60.0
   heals_extra: []
-  no_kill_timeout_sec: 25.0
+  no_kill_timeout_sec: 35.0
 base_preset: default
 just_assists:
   enabled: false
