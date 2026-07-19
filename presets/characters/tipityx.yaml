@@ -40,7 +40,8 @@ just_assists:
   enabled: false
   interval_sec: 0.3
   keys:
-  - '7'
+  - key: '7'
+    interval_sec: 0.3
   heal:
     key: F6
     hp_below_pct: 60.0

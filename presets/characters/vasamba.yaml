@@ -29,9 +29,11 @@ just_farm:
     sweep_key: F6
   relocating: false
   self_buff:
-    key: F4
+    key: F5
     interval_sec: 0.0
-  self_buffs_extra: []
+  self_buffs_extra:
+  - key: F1
+    interval_sec: 0.0
   heal:
     key: F5
     hp_below_pct: 50.0

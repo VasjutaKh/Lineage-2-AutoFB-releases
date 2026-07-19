@@ -129,7 +129,8 @@ just_assists:
   enabled: true
   interval_sec: 500.0
   keys:
-  - F1
+  - key: F1
+    interval_sec: 500.0
 input:
   device: logitech_ghub
   use_mouse: true
