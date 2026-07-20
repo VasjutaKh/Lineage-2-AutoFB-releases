@@ -1,6 +1,6 @@
 name: tipityx
 just_farm:
-  enabled: true
+  enabled: false
   mob_names:
   - Crimson Spider
   - Hook Spider
@@ -45,4 +45,26 @@ just_assists:
   heal:
     key: F6
     hp_below_pct: 60.0
+  heals_extra: []
+just_spoil:
+  enabled: true
+  click_offset_y: 35
+  targeting:
+    mode: next_target
+    key: '1'
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 0
+  spoil:
+    enabled: true
+    spoil_key: F5
+    sweep_key: F6
+  self_buff:
+    key: F9
+    interval_sec: 0.0
+  self_buffs_extra: []
+  heal:
+    key: F5
+    hp_below_pct: 0.0
   heals_extra: []
