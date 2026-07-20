@@ -1,12 +1,12 @@
 name: VASAMBA
 just_farm:
-  enabled: false
+  enabled: true
   mob_names:
-  - Wolf
-  - Elder Wolf
-  - Orc Grunt
+  - Elpy
+  - Elder Keltir
+  - Bearded Keltir
   - Orc
-  mob_name: Wolf
+  mob_name: Elpy
   click_offset_y: 48
   targeting:
     mode: next_target
@@ -15,10 +15,7 @@ just_farm:
     type: key
     key: F1
     hp_below_pct: 0.0
-  attacks_extra:
-  - type: key
-    key: F2
-    hp_below_pct: 0.0
+  attacks_extra: []
   pickup:
     enabled: false
     key: F3
@@ -39,13 +36,11 @@ just_farm:
   no_kill_timeout_sec: 25.0
 base_preset: default
 just_assists:
-  enabled: true
-  interval_sec: 0.5
+  enabled: false
+  interval_sec: 0.3
   keys:
   - key: F2
-    interval_sec: 0.5
-  - key: F3
-    interval_sec: 0.5
+    interval_sec: 0.3
   heal:
     key: F6
     hp_below_pct: 80.0

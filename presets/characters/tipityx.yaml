@@ -38,10 +38,10 @@ just_farm:
 base_preset: default
 just_assists:
   enabled: false
-  interval_sec: 0.3
+  interval_sec: 1.0
   keys:
-  - key: '7'
-    interval_sec: 0.3
+  - key: F2
+    interval_sec: 1.0
   heal:
     key: F6
     hp_below_pct: 60.0

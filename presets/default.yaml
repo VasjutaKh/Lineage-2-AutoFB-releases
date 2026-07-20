@@ -125,6 +125,28 @@ just_farm:
   heals_extra: []
   no_kill_timeout_sec: 25.0
   relocating: false
+just_spoil:
+  enabled: false
+  click_offset_y: 35
+  targeting:
+    mode: next_target
+    key: '1'
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 0
+  spoil:
+    enabled: true
+    spoil_key: F5
+    sweep_key: F6
+  self_buff:
+    key: F9
+    interval_sec: 0.0
+  self_buffs_extra: []
+  heal:
+    key: F5
+    hp_below_pct: 0.0
+  heals_extra: []
 just_assists:
   enabled: true
   interval_sec: 500.0
