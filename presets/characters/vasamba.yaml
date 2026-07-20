@@ -31,9 +31,7 @@ just_farm:
   self_buff:
     key: F5
     interval_sec: 0.0
-  self_buffs_extra:
-  - key: F1
-    interval_sec: 0.0
+  self_buffs_extra: []
   heal:
     key: F5
     hp_below_pct: 50.0
@@ -42,10 +40,12 @@ just_farm:
 base_preset: default
 just_assists:
   enabled: true
-  interval_sec: 0.3
+  interval_sec: 0.5
   keys:
-  - F2
-  - F3
+  - key: F2
+    interval_sec: 0.5
+  - key: F3
+    interval_sec: 0.5
   heal:
     key: F6
     hp_below_pct: 80.0
