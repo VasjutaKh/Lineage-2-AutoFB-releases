@@ -39,6 +39,7 @@ clients:
     - Lu4.exe
     - Lu4Game.exe
     - Lu4-Win64-Shipping.exe
+    - lu4.bin
     exe_path: ''
     target_death_mode: hp_bar
     keyboard_backend: sendinput
