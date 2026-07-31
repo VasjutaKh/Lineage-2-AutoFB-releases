@@ -1,13 +1,12 @@
-name: tipityx
+name: LU4
 just_farm:
-  enabled: true
+  enabled: false
   mob_names:
-  - Crimson Spider
-  - Hook Spider
-  - Goblin Scout
+  - Wolf
+  - Elder Wolf
+  - Orc Grunt
   - Orc
-  - Werewolf Chieftain
-  mob_name: Crimson Spider
+  mob_name: Wolf
   click_offset_y: 35
   targeting:
     mode: next_target
@@ -21,12 +20,12 @@ just_farm:
     enabled: false
     key: F3
     interval_sec: 0
-    presses_after_kill: 4
+    presses_after_kill: 6
     press_gap_sec: 0.15
   spoil:
-    enabled: true
-    spoil_key: F6
-    sweep_key: F7
+    enabled: false
+    spoil_key: F5
+    sweep_key: F6
   relocating: false
   self_buff:
     key: F9
@@ -36,18 +35,8 @@ just_farm:
     key: F5
     hp_below_pct: 60.0
   heals_extra: []
-  no_kill_timeout_sec: 22.0
+  no_kill_timeout_sec: 25.0
 base_preset: default
-just_assists:
-  enabled: false
-  interval_sec: 1.0
-  keys:
-  - key: F2
-    interval_sec: 1.0
-  heal:
-    key: F6
-    hp_below_pct: 60.0
-  heals_extra: []
 just_spoil:
   enabled: false
   click_offset_y: 35
@@ -70,5 +59,15 @@ just_spoil:
   self_buffs_extra: []
   heal:
     key: F5
+    hp_below_pct: 0.0
+  heals_extra: []
+just_assists:
+  enabled: true
+  interval_sec: 500.0
+  keys:
+  - key: F1
+    interval_sec: 500.0
+  heal:
+    key: F6
     hp_below_pct: 0.0
   heals_extra: []

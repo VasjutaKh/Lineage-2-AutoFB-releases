@@ -10,16 +10,21 @@ just_farm:
   click_offset_y: 48
   targeting:
     mode: next_target
-    key: '1'
+    key: F2
   attack:
     type: key
     key: F1
     hp_below_pct: 0.0
-  attacks_extra: []
+  attacks_extra:
+  - type: key
+    key: '2'
+    hp_below_pct: 0.0
   pickup:
     enabled: false
     key: F3
     interval_sec: 0
+    presses_after_kill: 6
+    press_gap_sec: 0.15
   spoil:
     enabled: false
     spoil_key: F5
@@ -37,11 +42,35 @@ just_farm:
 base_preset: default
 just_assists:
   enabled: false
-  interval_sec: 0.3
+  interval_sec: 0.1
   keys:
-  - key: F2
-    interval_sec: 0.3
+  - key: F7
+    interval_sec: 0.1
   heal:
     key: F6
     hp_below_pct: 80.0
+  heals_extra: []
+just_spoil:
+  enabled: false
+  click_offset_y: 35
+  targeting:
+    mode: next_target
+    key: '1'
+  pickup:
+    enabled: false
+    key: F3
+    interval_sec: 0
+    presses_after_kill: 4
+    press_gap_sec: 0.15
+  spoil:
+    enabled: false
+    sweep_only: true
+    sweep_key: F6
+  self_buff:
+    key: F9
+    interval_sec: 0.0
+  self_buffs_extra: []
+  heal:
+    key: F5
+    hp_below_pct: 0.0
   heals_extra: []

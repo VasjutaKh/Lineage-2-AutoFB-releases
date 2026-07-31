@@ -112,9 +112,11 @@ just_farm:
     hp_below_pct: 0.0
   attacks_extra: []
   pickup:
-    enabled: false
+    enabled: true
     key: F3
     interval_sec: 0
+    presses_after_kill: 6
+    press_gap_sec: 0.15
   self_buff:
     key: F9
     interval_sec: 0.0
@@ -137,7 +139,7 @@ just_spoil:
     interval_sec: 0
   spoil:
     enabled: true
-    spoil_key: F5
+    sweep_only: true
     sweep_key: F6
   self_buff:
     key: F9
