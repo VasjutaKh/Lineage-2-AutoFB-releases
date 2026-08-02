@@ -112,7 +112,7 @@ just_farm:
     hp_below_pct: 0.0
   attacks_extra: []
   pickup:
-    enabled: true
+    enabled: false
     key: F3
     interval_sec: 0
     presses_after_kill: 6
