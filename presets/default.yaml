@@ -115,7 +115,7 @@ just_farm:
     enabled: false
     key: F3
     interval_sec: 0
-    presses_after_kill: 6
+    presses_after_kill: 7
     press_gap_sec: 0.15
   self_buff:
     key: F9
@@ -132,15 +132,17 @@ just_spoil:
   click_offset_y: 35
   targeting:
     mode: next_target
-    key: '1'
+    key: ''
   pickup:
     enabled: false
     key: F3
     interval_sec: 0
   spoil:
     enabled: true
-    sweep_only: true
+    sweep_only: false
+    spoil_key: F5
     sweep_key: F6
+    spoil_presses: 1
   self_buff:
     key: F9
     interval_sec: 0.0
